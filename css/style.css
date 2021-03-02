@@ -1,0 +1,60 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+
+.bg {
+	background-image: url('/img/portal.png');
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	color: white;
+	font-size: 150px;
+	text-align: center;
+}
+
+.paragraph {
+	margin: auto;
+	color: black;
+	font: 23px Arial;
+	width: 900px;
+	padding-bottom: 20px;
+}
+
+.schwifty {
+	text-align: center;
+	padding-bottom: 10px;
+	order: 2;
+	width: 75%;
+}
+
+.meeseeks {
+	display: inline;
+	float: right;
+	order: 3;
+	height: 500px;
+}
+
+.meeseeks-flipped {
+	transform: scaleX(-1);
+	order: 1;
+	height: 500px;
+}
+
+.flex-container {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.grid-item {
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
